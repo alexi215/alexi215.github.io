@@ -1,0 +1,24 @@
+.anchor {
+  width: 100px;
+  height: 80px;
+  border-radius:25%;
+  box-shadow: 0 25px 0 0 red;
+}
+.diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: black;
+  position: relative;
+  top: -50px;
+}
+.diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: black;
+}
