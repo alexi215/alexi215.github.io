@@ -21,14 +21,12 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: white;
+    color: #001f3f;
 }
 
 a:hover {
     color: #F7483B;
 }
-
-
 
 h1,
 h2,
@@ -426,8 +424,10 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content h2 {
+    color: #001f3f;
     margin: 0;
     font-size: 3em;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content img {
